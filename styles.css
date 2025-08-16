@@ -72,7 +72,7 @@ body {
 .main-header {
     background: var(--primary-dark);
     color: white;
-    position: sticky;   
+    position: static;   
     top: 0;
     z-index: 100;
     box-shadow: var(--shadow-lg);
@@ -1648,4 +1648,5 @@ body {
 
 .performer-list li:last-child {
     border-bottom: none;
+
 }
