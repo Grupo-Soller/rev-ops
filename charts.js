@@ -78,7 +78,7 @@ function createSourceChart() {
                         font: {
                             size: 14
                         },
-                        color: '#ffffff'
+                        color: '##666666'
                     }
                 },
                 tooltip: {
@@ -626,4 +626,5 @@ function createGMVChart() {
 // Função createCharts global para compatibilidade
 window.createCharts = function() {
     createAllCharts();
+
 };
