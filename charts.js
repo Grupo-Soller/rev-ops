@@ -78,7 +78,7 @@ function createSourceChart() {
                         font: {
                             size: 14
                         },
-                        color: '##666666'
+                        color: '#666666'
                     }
                 },
                 tooltip: {
@@ -628,3 +628,4 @@ window.createCharts = function() {
     createAllCharts();
 
 };
+
